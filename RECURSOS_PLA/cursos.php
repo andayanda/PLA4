@@ -10,9 +10,9 @@
 	<script src="js/page.js" type="text/javascript"></script>
 </head>
 <body>
-<?php include('components/header.html'); ?>
+<?php include('components/header.php'); ?>
 	<div class="wraper">
-	<?php include('components/nav.html'); ?>
+	<?php include('components/nav.php'); ?>
 		<div class="content">
 			<div class="slider" >
 				<img src="img/iem_1.jpg" /><img src="img/iem_2.jpg" />
@@ -42,7 +42,7 @@
 			</div>
 		</div>
 	
-		<?php include('components/footer.html'); ?>		
+		<?php include('components/footer.php'); ?>		
 	</div>
 </body>
 </html> 
