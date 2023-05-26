@@ -1,5 +1,5 @@
 <?php
-// require ('/RECURSOS_PLA/componentes/header.html');
+include("lang/idioma.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,10 +13,10 @@
 	<script src="js/page.js" type="text/javascript"></script>
 </head>
 <body>	
-<?php include('componentes/header.html'); ?>
+<?php include('components/header.html'); ?>
 	
 	<div class="wraper">
-	<?php include('componentes/nav.html'); ?>
+	<?php include('components/nav.html'); ?>
 		<div class="content">
 			<div class="slider">
 				<img src="img/iem_1.jpg" /><img src="img/iem_2.jpg" />
@@ -30,7 +30,7 @@
 		    </div>
 		    <br><br>
 		</div>
-		<?php include('componentes/footer.html'); ?>		
+		<?php include('components/footer.html'); ?>		
 	</div>
 </body>
 </html> 
