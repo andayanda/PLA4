@@ -8,6 +8,8 @@ $label_Telefono="Teléfono:";
 $label_Mensaje="Mensaje: *";
 $lgpd="En cumplimiento de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal (LOPD), le informamos que los datos de carácter personal que usted nos comunique mediante este formulario de contacto serán confidenciales y, bajo ningún concepto, serán transmitidos a terceras personas.";
 $acepto_lgpd= "He leido y acepto la política de privacidad:";
+$placeholder_1= "Introduzca aquí su pregunta o comentario";
+$leyenda="Ver aquí";
 
 ?>
 <!DOCTYPE html>
@@ -42,10 +44,10 @@ $acepto_lgpd= "He leido y acepto la política de privacidad:";
 						<label for="email"><?php echo $label_Email ??null; ?></label><input type="email" name="email" id="email" placeholder="nom@mail.com" /><br><br>
 						<label for="telefono"><?php echo $label_Telefono ??null; ?> </label><input type="tel" name="telefono" id="telefono"><br><br>
 						<label><?php echo $label_Mensaje ??null; ?></label><br><br>
-						<textarea id="mensaje" name="mensaje" placeholder="Introduzca aquí su pregunta o comentario" ></textarea><br><br>
+						<textarea id="mensaje" name="mensaje" placeholder=<?php echo $placeholder_1 ??null; ?> ></textarea><br><br>
 						<span>He leido y acepto la política de privacidad:</span><br><br>
 						<input id="privacidad" type="checkbox" name="privacidad">&nbsp&nbsp
-						<span id='ver' onclick="muestraAlert()">Ver aquí</span><br><br>
+						<span id='ver' onclick="muestraAlert()"><?php echo $leyenda ??null; ?></span><br><br>
 						<input id="enviar" type="button" name="enviar" value="Enviar" onclick="validaFormulario()"/><br>
 					</form>
 					
