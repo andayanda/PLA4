@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="ca">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<div class="sections"  id="cursos">
 <h1>Idiomes (des de els 4 anys)</h1>
 
 <p>Horaris de mati, tarda, nit i dissabtes matins</p>
@@ -27,10 +17,3 @@
 <p>Seguiment personalitzat.</p>
 
 <p>Tècniques d'estudi..</p>
-
-</div>
-</body>
-</html>
-
-
-

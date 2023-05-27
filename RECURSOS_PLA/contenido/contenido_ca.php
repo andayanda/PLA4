@@ -11,6 +11,8 @@ $label_Telefono="Telèfon:";
 $label_Mensaje="Missatge: *";
 $lgpd="En compliment de la LLei Orgànica 15/1999, de 13 de decembre, de Protecció de Dades de Caràcter Personal (LOPD), l'informem que les dades de caràcter personal que vostè ens comuniqui mitjançant aquest formulari de contacte seràn confidencials i, sota cap concepte seràn transmeses a terceres persones.";
 $acepto_lgpd= "He llegit i accepto la política de privacitat:";
+$placeholder_1= "Introdueixi aquí la seva pregunta o comentari";
+$leyenda="Veure aquí";
 //del footer
 $comparte ="Comparteix a ";
 //del nav
