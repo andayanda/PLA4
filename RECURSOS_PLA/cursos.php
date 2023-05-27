@@ -18,7 +18,7 @@
 				<img src="img/iem_1.jpg" /><img src="img/iem_2.jpg" />
 		    </div>
 
-		    <div class="sections"  id="cursos">
+		    <!-- <div class="sections"  id="cursos">
 		    	<h1>Idiomas (desde los 4 años).</h1>
 
 				<p>Horarios de mañana, tarde, noche y sábados mañana.</p>
@@ -39,7 +39,7 @@
 
 				<p>Técnicas de estudio.</p>
 
-			</div>
+			</div> -->
 		</div>
 	
 		<?php include('components/footer.php'); ?>		
