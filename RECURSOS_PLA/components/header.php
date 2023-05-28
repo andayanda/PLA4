@@ -1,8 +1,8 @@
 <?php
-$h1 ="Instituto de Estudios Modernos";
+
 $idioma = "es";
 if (isset($_GET["idioma"])){ $idioma = $_GET["idioma"]; }
-include ("contenido_$idioma.php");
+include ("contenido/contenido_$idioma.php");
 ?>
 <!DOCTYPE html>
 <html lang="es">

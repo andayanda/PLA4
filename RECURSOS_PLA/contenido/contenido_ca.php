@@ -27,9 +27,7 @@ $seccion2="SITUACIÓ I CONTACTE";
 
 
 
-Introdueixi aquí la seva pregunta o comentari
 
-Veure aquí
 
 
 

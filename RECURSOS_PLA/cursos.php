@@ -19,10 +19,9 @@
 		    </div>
 
 		    <div class="sections"  id="cursos">
-		    <?php readfile("contenido_cursos_$idioma.html")?>;	
+		    <?php readfile("contenido/contenido_cursos_$idioma.html")?>;	
 			</div>
-		</div>
-	
+		</div>	
 		<?php include('components/footer.php'); ?>		
 	</div>
 </body>

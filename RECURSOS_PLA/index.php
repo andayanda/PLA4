@@ -1,6 +1,6 @@
 <?php
-include("lang/idioma.php");
-?>
+// include("lang/idioma.php");
+// ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,7 +22,7 @@ include("lang/idioma.php");
 				<img src="img/iem_1.jpg" /><img src="img/iem_2.jpg" />
 			</div>
 			<div class="sections" id="index">
-			<?php readfile("contenido_index_$idioma.html")?>;
+			<?php readfile("contenido/contenido_index_$idioma.html")?>;
 		    </div>
 		    <br><br>
 		</div>
