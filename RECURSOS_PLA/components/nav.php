@@ -1,7 +1,9 @@
 <?php
-$inicio ="LA ESCUELA";
-$seccion1="CURSOS Y HORARIOS";
-$seccion2="SITUACIÓN Y CONTACTO";
+// $inicio ="LA ESCUELA";
+// $seccion1="CURSOS Y HORARIOS";
+// $seccion2="SITUACIÓN Y CONTACTO";
+if (isset($_GET["idioma"])){ $idioma = $_GET["idioma"]; }
+include ("contenido/contenido_$idioma.php");
 ?>
 <!DOCTYPE html>
 <html lang="es">

@@ -1,5 +1,8 @@
 <?php
-$h1 ="Instituto de Estudios Modernos";
+
+$idioma = "es";
+if (isset($_GET["idioma"])){ $idioma = $_GET["idioma"]; }
+include ("contenido/contenido_$idioma.php");
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -15,7 +18,7 @@ $h1 ="Instituto de Estudios Modernos";
         <h1><?php echo $h1 ??null; ?> </h1>
 		
 		<BUtton:submit></BUtton:submit>
-		<A:link>ES</A:link><A:link>CA</A:link>
+        <a href="index.php?idioma=es">ES</a> | <a href="index.php?idioma=ca">CA</a>
 	</header>
     
 </body>

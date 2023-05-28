@@ -11,6 +11,8 @@ $label_Telefono="Teléfono:";
 $label_Mensaje="Mensaje: *";
 $lgpd="En cumplimiento de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal (LOPD), le informamos que los datos de carácter personal que usted nos comunique mediante este formulario de contacto serán confidenciales y, bajo ningún concepto, serán transmitidos a terceras personas.";
 $acepto_lgpd= "He leido y acepto la política de privacidad:";
+$placeholder_1= "Introduzca aquí su pregunta o comentario";
+$leyenda="Ver aquí";
 //del footer
 $comparte ="Comparte en:";
 //del nav
