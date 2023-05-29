@@ -1,6 +1,7 @@
 <?php
-// include("lang/idioma.php");
-// ?>
+$idioma = "es";
+if (isset($_GET["idioma"])){ $idioma = $_GET["idioma"]; }
+include ("contenido/contenido_$idioma.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>

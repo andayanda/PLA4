@@ -15,7 +15,7 @@ include ("contenido/contenido_$idioma.php");
     <header>
 		<img src="img/IEM_logo.png">
         <h1><?php echo $h1 ??null; ?> </h1>
-        <span><a href="index.php?idioma=es">ES</a> | <a href="index.php?idioma=ca">CA</a></span>
+        <span><a href="?lang=es">ESP</a> | <a href="?lang=ca">CAT</a></span>
 	</header>    
 </body>
 </html>

@@ -1,4 +1,7 @@
 <?php
+$idioma = "es";
+if (isset($_GET["idioma"])){ $idioma = $_GET["idioma"]; }
+include ("contenido/contenido_$idioma.php");
 $titulo ="LOCALIZACIÓN DEL CENTRO Y CONTACTO";
 $subtitulo= "CONTACTO";
 $campos_obligatorios="Los campos marcados con * son obligatorios.";
