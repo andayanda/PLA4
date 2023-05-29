@@ -1,5 +1,4 @@
 <?php
-
 $idioma = "es";
 if (isset($_GET["idioma"])){ $idioma = $_GET["idioma"]; }
 include ("contenido/contenido_$idioma.php");
@@ -16,10 +15,7 @@ include ("contenido/contenido_$idioma.php");
     <header>
 		<img src="img/IEM_logo.png">
         <h1><?php echo $h1 ??null; ?> </h1>
-		
-		<BUtton:submit></BUtton:submit>
-        <a href="index.php?idioma=es">ES</a> | <a href="index.php?idioma=ca">CA</a>
-	</header>
-    
+        <span><a href="index.php?idioma=es">ES</a> | <a href="index.php?idioma=ca">CA</a></span>
+	</header>    
 </body>
 </html>
